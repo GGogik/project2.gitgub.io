@@ -1,0 +1,454 @@
+body{
+background-color: rgb(255, 255, 255);
+
+}
+.global{/* Главный див */
+margin: 0 auto;
+max-width: 1200px;
+}
+
+.menu{ /* див меню*/
+display: flex;
+margin-left: 45px;
+}
+
+
+#dan img:nth-of-type(1){/* Лого */
+margin-top: 10px;
+margin-left: 20px;
+width: 120px;
+height: 50px;
+}
+
+.menu1{/* Кнопки*/
+margin-left: 350px;
+}
+ol{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+li{
+margin: 0 20px;
+}
+#dan a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+list-style: none; 
+font-size: 16px;
+font-family: Poppins;
+font-weight: 400;
+}
+/* Синяя кнопка */
+#dan a:nth-of-type(5){ 
+border: 5px solid rgb(0, 110, 255);
+background-color: rgb(0, 110, 255);
+color: aliceblue;
+}
+/* <!-- _______________________________________________________________________________________________________________________________ --> */
+/* Надпись Portfolio*/
+.p1{
+font-family: Poppins;
+font-size: 65px;
+text-align: center;
+font-weight: 650;
+padding: 0%;
+margin-bottom: 20px;
+}
+/* Текст под  Portfolio*/
+.p2{
+font-family: Poppins;
+text-align: center;
+margin-bottom: 50px;
+font-size: 20px;
+}
+/* большая картинка 1 */
+.BGIMG{
+width: 90%;
+margin: auto;
+display: block;
+}
+/* <!-- _______________________________________________________________________________________________________________________________ --> */
+/* контейнер для надписи с линией */
+.ln{
+display: flex;
+margin-top: 50px;
+margin-left: 56px;
+flex-direction: row;
+}
+/* надпись */
+#line p:nth-of-type(1){
+font-family: Poppins; 
+font-size: 15px;
+line-height: 24px;
+font-weight: 600;
+margin-right: 0;
+padding: 0;
+}
+/* Линия */
+hr:nth-of-type(1){
+width: 410PX;
+height: 1PX;
+background: black;
+margin-left: 20px;
+margin-top: 27PX;
+}
+/* _________________________________________________________________________________________________________________________________________________*/
+/* Картинка с правый тестом и человеком */
+.dd1{
+display: flex;
+flex-direction: row;
+margin-top: 33px;
+}
+/* Левая картинка */
+.dd2{
+margin-left: 56px;
+margin-right: 0px;
+width: 780px;
+z-index: 1;
+}
+/* div с текстом и человеком справа от картинки */
+.dd3{
+display: flex;
+position: static;
+margin-left: -150px;
+margin-bottom: 40px;
+margin-top: 20px;
+width: 350px;
+background: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* Правая картинка с человеком */
+.dd4{
+width: 80px;
+height: 80px;
+margin-left: 2px;
+padding: 10px;
+padding-left: 17px;
+}
+
+
+/* отступ для текста справо от картинки  */
+.ch1{
+margin-top: 10px;
+z-index: 2;
+}
+/* Текст справа от картинки */
+.p3{
+font-size: 22px;
+margin-left: 100px;
+font-family: Poppins;
+font-weight: 700;
+}
+/* текст имя и должность человека справа от картинки */
+.p4{
+font-size: 18px;
+margin-left: 100px;
+margin-bottom: 20px;
+text-align: left;
+font-family: Poppins;
+}
+#ch3 p:nth-of-type(1){
+text-align: center;
+margin-right: 2px;
+width: 270px;
+font-family: poppins;
+font-size: 20px;
+}
+/* кнопка */
+#knopka1 p:nth-of-type(1){
+font-family: poppins;
+font-size: 18px;
+color: rgb(255, 255, 255);
+border: 1px solid rgb(0, 110, 255);
+background-color: rgb(0, 110, 255);
+font-weight: 400;
+padding-top: 15px;
+padding-bottom: 10px;
+margin-left: 100px;
+margin-top: 30px;
+width: 140px;
+}
+#knopka1 a:nth-of-type(1){
+text-decoration: none;
+text-align: center;
+}
+/* _______________________________________________________________________________________________________________________________________________ */
+/* блок с 2 человеком и картинками */
+.bl2cl{
+display: flex;
+margin-left: 60px;
+margin-top: 40px;
+}
+/* Левый контейнер с человеком и текстом под ним */
+#bl2 div:nth-of-type(1){
+flex-direction: row;
+margin-top: 20px;
+z-index: 2;
+}
+/* контейнер с человеком */
+#knt21 div:nth-of-type(1){
+display: flex;
+position: absolute;
+margin-left: 70px;
+}
+.knt211{
+display: flex;
+margin-left: 0px;
+margin-bottom: 40px;
+margin-top: 20px;
+width: 350px;
+height: 100px;
+background: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+    /* Левая картинка с человеком */
+.imgCh {
+width: 80px;
+height: 80px;
+padding: 10px;
+padding-left: 20px;
+}
+/* Фамилия имя человека */
+.p5{
+    text-align: center;
+    margin-right: 2px;
+    width: 270px;
+    font-family: poppins;
+    font-size: 20px;
+}
+/* 3 картинка большая */
+.img3{
+width:800px;
+margin-right: 20px;
+margin-left: 30px;
+z-index: 1;
+}
+/* простанство для текста под человеком 2 */
+.space{
+padding-top: 150px;
+margin-left: -105px;
+margin-right: 50px;
+}
+/* Кнопка 2 */
+.knp{
+margin-left: -110px;
+}
+#knopka2 p:nth-of-type(1){
+    font-family: poppins;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 110, 255);
+    background-color: rgb(0, 110, 255);
+    font-weight: 400;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 140px;
+    }
+#knopka2 a:nth-of-type(1){
+    text-decoration: none;
+    text-align: center;
+}
+/* _____________________________________________________________________________________________________________________________________________________ */
+/* Следующие 2 картинки и человек, используют предыдущие классы и теги */
+
+/* отступ для линии */
+.lnspace{
+margin-top: 90px;
+}
+
+/* контейнер с текстами */
+.whch{
+margin-left: 56px;
+margin-bottom: -10px;
+
+/* Текст 1 */
+}
+#choose p:nth-of-type(1){
+font-family: poppins;
+font-weight: 650;
+font-size: 30px;
+}
+/* Текст 2 */
+#choose p:nth-of-type(2){
+font-family: poppins;
+font-size: 15px;
+}
+
+/* __________________________________________________________________________________________________________________________________ */
+/* контейнер с тримя элемнтами в которых надписи */
+.threl{
+display: flex;
+margin-top: 70px;
+margin-left: 50px;
+}
+/* каждый из 3 элент */
+.therlKT{
+margin: 10px 10px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+font-family: poppins;
+text-align: center;
+width: 30%;
+height: 300px;
+font-size: 15px;
+
+}
+/* жирный шрифт */
+.fontBold{
+font-weight: 800;
+font-size: 25px;
+}
+
+.imgspace{
+margin-top: 30px;
+}
+
+/* ____________________________________________________________________________________________________________________________ */
+/* Синий контейнер  */
+
+.bluKT{
+display: flex;
+background: rgb(0, 110, 255);
+width: 1500px;
+height: 200px;
+margin-left: -150px;
+margin-top: 30px;
+text-align: left;
+
+}
+/* Левая надпись */
+.bluKT2{
+font-size: 35px;
+font-weight: 600;
+font-family: poppins;
+color: aliceblue;
+margin-left: 209px;
+margin-top: 0px;
+}
+/* Правый текст */
+.bluKT3{
+margin-left: 90px;
+font-size: 17px;
+font-family: poppins;
+color: aliceblue;
+margin-top: 26px;
+}
+/* Правая кнопка */
+#pravi div:nth-of-type(1){
+font-size: 20px;
+font-family: poppins;
+font-weight: 400px;
+background: white;
+width: 109px;
+height: 30px;
+padding: 10px 20px;
+}
+/* уюираета на всех ссылках подчер */
+a{
+text-decoration: none;
+}
+/* ____________________________________________________________________________________________________________________________ */
+/* <!-- контейнер с лого и отправ мэилом --> */
+
+.lgmailKT{
+display: flex;
+margin-top: 40px;
+}
+.ss{
+width: 140px;
+}
+#lgmailKT div:nth-of-type(1){
+margin-left: 57px;
+}
+#lgmailKT1 p:nth-of-type(1){
+margin-top: 0px;
+font-family: poppins;
+font-size: 30px;
+font-weight: 650;
+line-height: 60px;
+}
+
+#lgmailKT div:nth-of-type(2){
+margin-left: 150px;
+}
+
+#lgmailKT2 p:nth-of-type(1){
+font-family: poppins;
+font-size: 20px;
+}
+#lgmailKT2 li{
+/* Сдвигаем маркер списка вниз */
+list-style-position: outside;
+}
+#lgmailKT2 ul{ 
+    font-size: 50px;
+    list-style-type: disc;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#lgmailKT2 input{
+text-decoration: none;
+border: none;
+font-size: 20px;
+width: 370px;
+outline-width: 0;
+margin-left: 20px;
+}
+.img8{
+width: 25px;
+}
+/* _______________________________________________________________________________________________________________ */
+/* соц сети  */
+
+/* Главный кнт */
+.sc{
+margin-left: 770px;
+}
+
+#sc p:nth-of-type(1){
+font-family: poppins;
+font-size: 20px;
+margin-left: 38px;
+}
+
+/*контейнер c соц сетями */
+.sc1{
+display: flex;
+
+
+}
+
+/* facebook */
+.facebook{
+width: 50px;
+height: 50px;
+margin-left: 30px;
+}
+
+/* intagramm */
+.intagramm{
+width: 55px;
+height: 55px;
+margin-left: 30px;
+}
+
+/* tiktok */
+.tiktok{
+width: 40px;
+height: 40px;
+margin-left: 30px;
+margin-top: 10px;
+}
+
+/* youtube */
+.youtube{
+width: 50px;
+height: 40px;
+margin-left: 35px;
+margin-top: 10px;
+}
+
+
